@@ -31,6 +31,10 @@
     .alerta-grave {
         animation: piscaVermelho 0.3s infinite;
     }
+
+    #btnRegistrar{
+        color: black;
+    }
     </style>
 </head>
 <body>
@@ -43,6 +47,16 @@
         <button id="btnAbastecerSeguro">Abastecer 10%</button>
     </div>
 
+    <h2>Registrar Voo</h2>
+
+    <input type="text" id="codigo" placeholder="Código do voo">
+    <input type="text" id="origem" placeholder="Origem">
+    <input type="text" id="destino" placeholder="Destino">
+
+    <button id="btnRegistrar">Registrar Voo</button>
+
+    <p id="avisoSistema"></p>
     <script src="script.js"></script>
+    <script type="module" src="painel.js"></script>
 </body>
 </html>

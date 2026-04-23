@@ -76,3 +76,7 @@ btnAbastecer.addEventListener("click", () => {
     vooVip.abastecer = 10;
     atualizarTela();
 });
+
+
+
+
